@@ -9,30 +9,30 @@ namespace uczenie_maszynowe
     public class Metody
     {
 
-        public int UniporalnaDys(double x1)
+        public int UniporalnaDys(double net)
         {
-            if (x1 > 0)
+            if (net > 0)
             {
                 return 1;
             }
             else return 0;
         }
-        public double DipolarnaDys(double x1)
+        public double DipolarnaDys(double net)
         {
-            if (x1 > 0)
+            if (net > 0)
             {
                 return 1;
             }
-            else return 0;
+            else return -1;
         }
-        public double UnipolarnaCiogla (double x)
+        public double UnipolarnaCiogla (double net)
         {
-            double output = 1 / 1 + Math.Exp(-1 * x);
+            double output = 1 / 1 + Math.Exp(-1 * net);
             return output;
         }
-        public double DipolarnaCioglaSin(double x)
+        public double DipolarnaCioglaSin(double net)
         {
-            double output = (1 - Math.Exp(-1 * x))/ (1 + Math.Exp(-1 * x));
+            double output = (1 - Math.Exp(-1 * net))/ (1 + Math.Exp(-1 * net));
             return output;
         }
 

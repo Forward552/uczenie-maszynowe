@@ -28,6 +28,7 @@
             {
                 w[i] = r.NextDouble();
             }
+            y = wynik();
         }
 
         double net()
