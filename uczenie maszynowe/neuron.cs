@@ -20,7 +20,7 @@
         {
             for (int i = 0; i < wejscia; i++)
             {
-                x[i] = Dane.x[0, i];
+                x[i] = Dane.wartosciX[0, i];
             }
             
             w= new double[wejscia];
