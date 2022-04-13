@@ -7,9 +7,9 @@
         //public static double[,] waga = { { 0.1, 0.2, 0.4, 0.7 }, { 0.9, 0.5, 0.1, 0.5 } };
 
         #endregion
-        static int wierszy = 150;
-        static int wartosci = 4;
-        public static double[,] wartosciX;// = new double[wierszy,wartosci];
+        public static int wierszy = 150;
+        public static int wartosci = 4;
+        public static double[,] wartosciX;// = new double[wierszy,wartosci]; // tabela z danymi
         public static int[] rodzajeX;
 
         public static void wczytaj()
