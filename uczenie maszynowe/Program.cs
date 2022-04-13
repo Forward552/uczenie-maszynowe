@@ -49,9 +49,11 @@ Console.WriteLine("Wyniki neuronów w warstwie ukrytej");
 for (int i = 0; i < a.liczbaNeuronow; i++)
 {
 Console.WriteLine(warstwaUkryta[i]);
-
 }
-Console.Write("Wynik Neurona sumującego: ");
-Console.Write(a.NeuronSumujacy(warstwaUkryta).ToString());
+
+Console.WriteLine("Wynik Neurona sumującego: "+a.NeuronSumujacy(warstwaUkryta).ToString());
+Console.WriteLine("Wynik Neurona sumującego: "+a.NeuronSumujacy(warstwaUkryta).ToString());
+Console.WriteLine("Wynik Neurona sumującego: "+a.NeuronSumujacy(warstwaUkryta).ToString());
+Console.WriteLine("\n\n\n\n");
 //Dane.WyswietlTablice();
 
